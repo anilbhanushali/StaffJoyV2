@@ -3,7 +3,7 @@
 
 ip = '192.168.33.11'
 cpus = 2
-memory = 1024 * 6
+memory = 1024 * 2
 
 def fail_with_message(msg)
   fail Vagrant::Errors::VagrantError.new, msg
